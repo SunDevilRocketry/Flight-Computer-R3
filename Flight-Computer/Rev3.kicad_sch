@@ -978,7 +978,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bbb7a43f-7fa1-4fde-a97b-816670a94c5b")
 		(property "Reference" "U14"
 			(at 45.466 19.304 0)
@@ -989,7 +988,7 @@
 			)
 		)
 		(property "Value" "MX25V5126FM1I"
-			(at 45.974 21.844 0)
+			(at 45.212 21.59 0)
 			(effects
 				(font
 					(size 1.524 1.524)
