@@ -10909,6 +10909,7 @@
 	)
 	(label "PIN_HARN"
 		(at 200.66 66.675 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10919,6 +10920,7 @@
 	)
 	(label "PIN_SCREW"
 		(at 200.025 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17034,6 +17036,43 @@
 				(path "/15d2e012-e166-422c-a8f3-0484b565dd65"
 					(reference "R3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 168.91)
+		(size 25.4 10.16)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50820f75-73df-40b2-8569-4bcf15d0fdea")
+		(property "Sheetname" "Revision 3 Modifications"
+			(at 205.994 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Rev3.kicad_sch"
+			(at 205.74 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flight-Computer"
+				(path "/15d2e012-e166-422c-a8f3-0484b565dd65"
+					(page "4")
 				)
 			)
 		)
