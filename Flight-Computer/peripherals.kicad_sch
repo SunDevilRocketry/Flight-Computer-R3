@@ -8596,7 +8596,6 @@
 	)
 	(label "D-"
 		(at 84.455 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8607,7 +8606,6 @@
 	)
 	(label "D+"
 		(at 84.455 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9684,7 +9682,7 @@
 		)
 		(uuid "d0fcdbd2-2eea-46d8-a438-7bc6c675c938")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.4365 119.9356 0)
+			(at 24.4297 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)

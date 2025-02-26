@@ -12,7 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U12"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "BGA9_BMM350_BOS"
+			(property "Footprint" "footprints:BGA9_BMM350_BOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -292,6 +292,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "BMM350_1_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 33.02 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -3957,7 +3970,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U13"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -3973,7 +3986,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SNT-6A-A-PKG_PG006-A-P-SD-2.1_ABL"
+			(property "Footprint" "S85S1A:SNT-6A-A-PKG_PG006-A-P-SD-2.1_ABL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4183,6 +4196,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "S-85S1AB33-I6T1U_1_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 33.02 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -6636,7 +6662,6 @@
 	)
 	(label "GPS"
 		(at 27.94 121.285 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6647,7 +6672,6 @@
 	)
 	(label "3V_BAK"
 		(at 117.475 100.965 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
