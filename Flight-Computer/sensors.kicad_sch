@@ -6662,6 +6662,7 @@
 	)
 	(label "GPS"
 		(at 27.94 121.285 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6672,6 +6673,7 @@
 	)
 	(label "3V_BAK"
 		(at 117.475 100.965 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

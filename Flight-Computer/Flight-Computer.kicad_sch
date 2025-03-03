@@ -10909,6 +10909,7 @@
 	)
 	(label "PIN_HARN"
 		(at 200.66 66.675 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10919,6 +10920,7 @@
 	)
 	(label "PIN_SCREW"
 		(at 200.025 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

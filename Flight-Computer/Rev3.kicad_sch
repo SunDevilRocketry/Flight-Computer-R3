@@ -202,40 +202,52 @@
 				)
 			)
 		)
-		(symbol "Device:R"
+		(symbol "Flight-Computer-Mac:RES_0603"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at -1.27 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "RES_0603"
+				(at -3.81 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 1.27 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -244,79 +256,147 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "RES_0603_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
 					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "R_1_1"
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 3.81 270)
+					(at -3.81 0 0)
 					(length 1.27)
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -750,6 +830,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 38.1) (xy 111.76 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad1ab71-2855-40b7-aad2-cc167d0028f3")
+	)
+	(wire
+		(pts
+			(xy 175.26 38.1) (xy 175.26 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c37a2f3-12f0-4852-9e1d-0cc237a73fdc")
+	)
+	(wire
+		(pts
 			(xy 29.21 34.29) (xy 31.115 34.29)
 		)
 		(stroke
@@ -777,6 +877,16 @@
 			(type default)
 		)
 		(uuid "9af37c65-f23d-4821-9be0-924cbc9712dc")
+	)
+	(wire
+		(pts
+			(xy 207.01 38.1) (xy 207.01 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e166f8ac-38e0-42ec-9116-baf072f619c5")
 	)
 	(wire
 		(pts
@@ -1278,7 +1388,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 175.26 36.83 270)
+		(at 175.26 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1287,7 +1397,7 @@
 		(fields_autoplaced yes)
 		(uuid "131388f1-378e-42fe-ad5a-42eb739d7e20")
 		(property "Reference" "#PWR067"
-			(at 168.91 36.83 0)
+			(at 175.26 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,16 +1406,16 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 172.085 36.8299 90)
+			(at 177.8 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 36.83 0)
+			(at 175.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +1424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 36.83 0)
+			(at 175.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +1433,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 175.26 36.83 0)
+			(at 175.26 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,75 +1448,6 @@
 			(project "Flight-Computer"
 				(path "/15d2e012-e166-422c-a8f3-0484b565dd65/50820f75-73df-40b2-8569-4bcf15d0fdea"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.115 28.575 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c279f92-802a-46e7-8462-d536eb1b8814")
-		(property "Reference" "R37"
-			(at 25.654 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kOhm"
-			(at 21.844 29.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.337 28.575 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.115 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.115 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "db770176-7823-42be-ab4f-83c727e8eb95")
-		)
-		(pin "1"
-			(uuid "3f710a53-7fd1-4910-9a25-88f4be1a545a")
-		)
-		(instances
-			(project ""
-				(path "/15d2e012-e166-422c-a8f3-0484b565dd65/50820f75-73df-40b2-8569-4bcf15d0fdea"
-					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -1645,7 +1686,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 111.76 36.83 270)
+		(at 111.76 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1654,7 +1695,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ba44bf3-13ec-4cef-8de6-d1137e940166")
 		(property "Reference" "#PWR065"
-			(at 105.41 36.83 0)
+			(at 111.76 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,16 +1704,16 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 108.585 36.8299 90)
+			(at 114.3 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 36.83 0)
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,7 +1722,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 36.83 0)
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 111.76 36.83 0)
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,6 +1746,77 @@
 			(project ""
 				(path "/15d2e012-e166-422c-a8f3-0484b565dd65/50820f75-73df-40b2-8569-4bcf15d0fdea"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Flight-Computer-Mac:RES_0603")
+		(at 31.115 28.575 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9045bfc8-8d23-40cf-a21c-eedb000e973c")
+		(property "Reference" "R37"
+			(at 26.035 27.305 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 26.035 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.815 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.115 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.115 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c4e4945-e64c-41e8-b159-3c661431f22a")
+		)
+		(pin "2"
+			(uuid "fb15b379-c1c9-49ed-9c2c-6b98285591ac")
+		)
+		(instances
+			(project ""
+				(path "/15d2e012-e166-422c-a8f3-0484b565dd65/50820f75-73df-40b2-8569-4bcf15d0fdea"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -1864,7 +1976,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 207.01 36.83 270)
+		(at 207.01 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1873,7 +1985,7 @@
 		(fields_autoplaced yes)
 		(uuid "b39d85f0-ad08-4563-8481-f06c86af8764")
 		(property "Reference" "#PWR068"
-			(at 200.66 36.83 0)
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,16 +1994,16 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 203.835 36.8299 90)
+			(at 209.55 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 36.83 0)
+			(at 207.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +2012,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 36.83 0)
+			(at 207.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +2021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 207.01 36.83 0)
+			(at 207.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,16 +2043,15 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 143.51 36.83 270)
+		(at 143.51 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7395391-ed5e-44e8-bc2f-d98f126f62fb")
 		(property "Reference" "#PWR066"
-			(at 137.16 36.83 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,7 +2060,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 140.335 36.8299 90)
+			(at 150.876 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
