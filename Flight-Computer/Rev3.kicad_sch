@@ -202,7 +202,7 @@
 				)
 			)
 		)
-		(symbol "Flight-Computer-Mac:RES_0603"
+		(symbol "Flight-Computer:RES_0603"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1752,16 +1752,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Flight-Computer-Mac:RES_0603")
+		(lib_id "Flight-Computer:RES_0603")
 		(at 31.115 28.575 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9045bfc8-8d23-40cf-a21c-eedb000e973c")
+		(fields_autoplaced yes)
+		(uuid "9d51d93b-7a20-4323-98aa-0b2e83d2527a")
 		(property "Reference" "R37"
-			(at 26.035 27.305 90)
+			(at 32.8676 27.7403 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,7 +1771,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 26.035 29.21 90)
+			(at 32.8676 30.2772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +1779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Flight-Computer:RES_0603"
 			(at 43.815 27.305 0)
 			(effects
 				(font
@@ -1808,13 +1809,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c4e4945-e64c-41e8-b159-3c661431f22a")
+			(uuid "5626414f-a9b6-4dfa-9def-7ccbe29da913")
 		)
 		(pin "2"
-			(uuid "fb15b379-c1c9-49ed-9c2c-6b98285591ac")
+			(uuid "65568f92-5e54-4ecc-a15a-515cedfba10b")
 		)
 		(instances
-			(project ""
+			(project "Flight-Computer"
 				(path "/15d2e012-e166-422c-a8f3-0484b565dd65/50820f75-73df-40b2-8569-4bcf15d0fdea"
 					(reference "R37")
 					(unit 1)
