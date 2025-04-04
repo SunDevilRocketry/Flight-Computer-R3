@@ -6,4 +6,7 @@
   (lib (name "BMM350")(type "KiCad")(uri "/Users/dave/Documents/GitHub/Flight-Computer/src/BMI350/BMI350 files/footprints.pretty")(options "")(descr ""))
   (lib (name "S85S1A")(type "KiCad")(uri "C:/Users/David/Documents/GitHub/Flight-Computer/src/BMI350/BMI350 files/cool converter/footprints.pretty")(options "")(descr ""))
   (lib (name "MIC5365")(type "KiCad")(uri "/Users/dave/Documents/GitHub/Flight-Computer-R3/lib/MIC5365_1_8YC5_TR/footprints.pretty")(options "")(descr ""))
+  (lib (name "440054_4")(type "KiCad")(uri "/Users/dave/Documents/GitHub/Flight-Computer-R3/lib/440054_4/footprints.pretty")(options "")(descr ""))
+  (lib (name "SST25")(type "KiCad")(uri "${KIPRJMOD}/SST25VF512A-33-4I-SAE/footprints.pretty")(options "")(descr ""))
+  (lib (name "Flight-Computer-Mac")(type "KiCad")(uri "/Users/dave/Documents/GitHub/Flight-Computer/lib/Flight-Computer.pretty")(options "")(descr ""))
 )

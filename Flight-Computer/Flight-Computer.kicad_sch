@@ -8054,20 +8054,12 @@
 		(uuid "8e8e5fdf-8f25-4f56-8658-951c11f2467c")
 	)
 	(no_connect
-		(at 93.345 43.815)
-		(uuid "953050e9-3fda-42da-9dd9-ca23b430efff")
-	)
-	(no_connect
 		(at 93.345 117.475)
 		(uuid "a4cdfc8d-ade8-431d-b43c-f8b2c3888d63")
 	)
 	(no_connect
 		(at 93.345 79.375)
 		(uuid "b2e928bb-982c-40d1-8fcc-037ea11165e3")
-	)
-	(no_connect
-		(at 93.345 41.275)
-		(uuid "c137dfec-d341-4077-bea1-66cf96747f9e")
 	)
 	(no_connect
 		(at 93.345 107.315)
@@ -9553,6 +9545,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 41.275) (xy 93.345 41.275)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c208cb-01e2-4b62-b408-a6277b0fa9a3")
+	)
+	(wire
+		(pts
 			(xy 206.375 106.68) (xy 208.28 106.68)
 		)
 		(stroke
@@ -10483,6 +10485,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 43.815) (xy 93.345 43.815)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9530c41-3394-4524-b53b-c0fb5ca317c9")
+	)
+	(wire
+		(pts
 			(xy 93.345 56.515) (xy 97.79 56.515)
 		)
 		(stroke
@@ -10929,6 +10941,28 @@
 		)
 		(uuid "6acf5448-a91e-4d82-b30a-60d69e4e91b5")
 	)
+	(global_label "PORT1_TX"
+		(shape input)
+		(at 97.79 43.815 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00d5595f-e8e3-48bc-a418-8b8d9695c4e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.3133 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOTOR1_PWM"
 		(shape input)
 		(at 96.52 97.155 0)
@@ -11081,6 +11115,28 @@
 			)
 		)
 	)
+	(global_label "PORT2_RX"
+		(shape input)
+		(at 33.655 100.965 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11b94ba5-de12-4f33-b57c-7e1609aab664")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.8293 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOOT"
 		(shape input)
 		(at 149.479 150.622 0)
@@ -11181,28 +11237,6 @@
 		(uuid "200aa806-b144-419f-a5fc-fcf6f2d64442")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.8965 168.1956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPS_INT"
-		(shape input)
-		(at 33.655 100.965 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2097c6db-496e-4e3e-9970-2e45e3c3a14b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.7108 100.8856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11936,28 +11970,6 @@
 			)
 		)
 	)
-	(global_label "IMU_INT2"
-		(shape input)
-		(at 33.655 98.425 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7db87647-25bf-4eee-92e9-283db160deb1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.8641 98.3456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAP2"
 		(shape input)
 		(at 264.922 105.664 180)
@@ -12234,6 +12246,28 @@
 		(uuid "9343ea74-0100-419d-aa24-c2e9b002e4b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.1341 93.4244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PORT2_TX"
+		(shape input)
+		(at 33.655 98.425 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9da9140c-527e-4135-b36f-1a3a94a1d033")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.1317 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12563,6 +12597,28 @@
 		(uuid "c72ba9cc-e54c-4835-ab40-2a6be0295559")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.8594 168.3544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PORT1_RX"
+		(shape input)
+		(at 97.79 41.275 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd4be076-4961-44af-8eb0-7144e4318d71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.6157 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
